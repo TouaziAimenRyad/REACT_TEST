@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Card from './components/Card'
-import bg from './assets/img/photo.jpeg'
+import bg from './assets/img/photo1.jpeg'
 function App() {
   return (
     <div className="App">
