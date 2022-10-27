@@ -28,7 +28,7 @@ const Grid = () => {
                     
                     <input type="text" placeholder="Rechercher par mot-clé ou tag"></input>
                     
-                    <a href='#' className='more'><img src={more_icon} alt="icon more"></img></a>
+                    <a  className='more'><img src={more_icon} alt="icon more"></img></a>
                 </div>
                 
                 <button>Diffusion</button>
@@ -37,6 +37,13 @@ const Grid = () => {
             </div>
             <div className='grid'>
                 {/* here put your cards */ }
+                <div className='placeholder'></div>
+                <div className='placeholder'></div>
+                <div className='placeholder'></div>
+                <div className='placeholder'></div>
+                <div className='placeholder'></div>
+                <div className='placeholder'></div>
+                <div className='placeholder'></div>
             </div>
         </div>
      );

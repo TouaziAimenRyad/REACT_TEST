@@ -7,7 +7,7 @@ import bg from './assets/img/photo1.jpeg'
 function App() {
   return (
     <div className="App">
-      <Grid></Grid>
+      <Card img={bg} name="Some name of grid goes here Some name of grid goes here" nb_competence="123"></Card>
     </div>
   );
 }
