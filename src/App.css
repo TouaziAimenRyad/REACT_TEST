@@ -32,6 +32,10 @@
   width: 500px;
   height: 500px;
 }
+body 
+{
+  background-color: rgba(244, 246, 249, 1);
+}
 
 a{
   text-decoration: none;

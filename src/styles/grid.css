@@ -1,0 +1,112 @@
+.grid-container
+{
+    width: 70%;
+    margin: auto;
+}
+.grid-title
+{
+    text-align: left;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}
+.grid-control
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-search
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.grid-control button
+{
+    background: linear-gradient(347.05deg, #FD3159 9.84%, #FD505A 91.14%);
+    box-shadow: 0px 4px 8px rgba(253, 49, 89, 0.2);
+    border-radius: 4px;
+    align-items: center;
+    padding: 8px 16px;
+    width: 87px;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+	outline: inherit;
+    font-weight: bolder;
+}
+.grid-search input[type=text]
+{
+  width: 50%;
+  border: none;
+  margin-right: 2%;
+  padding: 16px 30px;
+  border-radius:4px;
+  outline: none;
+  color: #7b7b7b;
+  font-weight: bolder;
+  
+}
+
+.grid-search .more
+{
+    height: 47px;
+}
+
+.select 
+{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    margin-right: 2%;
+}   
+.select select 
+{
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 16px 30px;
+        outline: 0;
+        border: 0px solid #000000;
+        border-radius: 4px;
+        background: #ffffff;
+        color: #7b7b7b;
+        font-weight: bolder;
+        appearance: none;
+}
+
+.select select:hover,.grid-search input[type=text]:hover,.grid-search input[type=text]:focus
+{
+    color: #000000;
+    background: #efefef;
+}
+
+.select_arrow 
+{
+    position: absolute;
+    top: 19px;
+    right: 22px;
+    width: 0px;
+    height: 0px;
+    border: solid #7b7b7b;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.select select:hover ~ .select_arrow
+{
+    border-color: #000000;
+}
