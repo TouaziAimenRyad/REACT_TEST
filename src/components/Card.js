@@ -16,16 +16,16 @@ const Crad = (props) => {
     }
     return (
         <div className="card-container" >
-                <div className={isActive?'hidden':'displayed'}>
-                    <div className='delete'>
+                <div className={'detail '+ (isActive?'hidden':'displayed')}>
+                    <a className='delete action'>
                         <img src={bin} alt="bin"></img>
                         <p>Delete</p>
 
-                    </div>
-                    <div className='share'>
+                    </a>
+                    <a className='share action'>
                         <img src={share} alt="share"></img>
                         <p>Share</p>
-                    </div>
+                    </a>
                 </div>
                 <div className='bg' style={{ backgroundImage:`url(${props.img})` ,backgroundSize: 'cover' ,backgroundPosition: 'center'}}>
                     <div className='card-content' >
