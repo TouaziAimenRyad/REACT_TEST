@@ -16,7 +16,7 @@ const Crad = (props) => {
     }
     return (
         <div className="card-container" >
-                <div className={'detail '+ (isActive?'hidden':'displayed')}>
+                <div className={'detail '+ (isActive?'displayed':'hidden')}>
                     <a className='delete action'>
                         <img src={bin} alt="bin"></img>
                         <p>Delete</p>

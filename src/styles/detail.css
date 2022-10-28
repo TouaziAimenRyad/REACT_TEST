@@ -1,0 +1,120 @@
+a
+{
+    cursor: pointer;
+}
+.detail-container{
+    width: 70%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.image-section
+{
+    height: 300px;
+    padding: 15px 3%;
+    position: relative;
+}
+
+.control 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20%;
+
+}
+
+.control .competences
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+}
+
+.control .competences p
+{
+    margin: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+.control .return img, .control .competences
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    backdrop-filter: blur(2px);
+    padding: 15px;
+    margin: 0;
+}
+
+
+.title
+{
+    position: absolute;
+    left: 25%;
+    bottom: 20px;
+}
+
+.title .more
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5px;
+}
+.title .more p
+{
+    font-family: Rubik;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.title p 
+{
+    font-family: Rubik;
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+    text-align: left;
+}
+
+
+.content 
+{
+    text-align: left;
+    position: absolute;
+    left: 25%;
+    width: 100%;
+}
+
+.content h2 
+{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.content p
+{
+    background: #FFFFFF;    
+    border: 1px solid #F2F3F5;
+    border-radius: 4px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 24px 2%;
+    width: 40%;
+
+}
