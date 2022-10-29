@@ -73,7 +73,8 @@ a
     font-family: Rubik;
     color: white;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 0px;
+    font-size: 16px;
 }
 
 .title p 

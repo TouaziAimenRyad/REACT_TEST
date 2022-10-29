@@ -5,6 +5,7 @@ import icon_16x16 from '../assets/icons/Icon_16x16.svg'
 import bin from '../assets/icons/Vector.svg'
 import share from '../assets/icons/Path.svg'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Card = (props) => {
@@ -16,12 +17,12 @@ const Card = (props) => {
     return (
         <div className="card-container" >
                 <div className={'detail '+ (isActive?'displayed':'hidden')}>
-                    <a className='delete action' onClick={()=>{props.delete(props.index);toggle_display()}} >
+                    <a className='delete action' onClick={(e)=>{e.preventDefault();props.delete(props.index);toggle_display()}} >
                         <img src={bin} alt="bin"></img>
                         <p>Delete</p>
 
                     </a>
-                    <a className='share action'>
+                    <a className='share action' onClick={(e)=>{e.preventDefault();toggle_display()}}>
                         <img src={share} alt="share"></img>
                         <p>Share</p>
                     </a>
@@ -43,7 +44,7 @@ const Card = (props) => {
                     </div>
                 </div>
 
-            
+            <Link to={"/item/"+props.index} className='goto-item'></Link>
         </div>
     );
 }
