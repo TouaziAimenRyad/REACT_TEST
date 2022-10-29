@@ -16,7 +16,7 @@ const DetailSection = (props) => {
 
                     <span className="competences">
                         <img src={icon_16x16} alt="16x16 icon"></img>
-                        <p >{props.nb_competance+ " Competences"}</p>
+                        <p >{props.nb_competence+ " Competences"}</p>
                     </span>
                 </div>
 

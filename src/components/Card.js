@@ -15,7 +15,7 @@ const Crad = (props) => {
         setActive(!isActive)
     }
     return (
-        <div className="card-container" >
+        <a className="card-container" >
                 <div className={'detail '+ (isActive?'displayed':'hidden')}>
                     <a className='delete action'>
                         <img src={bin} alt="bin"></img>
@@ -34,7 +34,7 @@ const Crad = (props) => {
                             <a onClick={toggle_display}> <img src={union_icon} alt="union icon"></img></a>
                        </div>
                        <div className='card-footer'>
-                            <p>{props.name} </p>
+                            <p>{props.title} </p>
                             <span className='card-comp'>
                                 <img src={icon_16x16} alt="16x16 icon"></img>
                                 <p>{props.nb_competence+' Competences'}</p>
@@ -45,7 +45,7 @@ const Crad = (props) => {
                 </div>
 
             
-        </div>
+        </a>
     );
 }
  

@@ -1,6 +1,12 @@
 import '../styles/grid.css'
 import more_icon from '../assets/icons/Moreo.svg'
-const Grid = () => {
+import Card from './Card';
+const Grid = (props) => {
+
+ 
+        
+    
+
     return ( 
         <div className='grid-container'>
             <p className='grid-title'>Grille</p>
@@ -11,8 +17,8 @@ const Grid = () => {
                     <div className='select'>
                         <select name="Recents" >
                             <option>Recents</option>
-                            <option>1</option>
-                            <option>1</option>
+                            <option>Recents</option>
+                            <option>Recents</option>
                         </select>
                         <div className="select_arrow"></div>
                     </div>
@@ -20,8 +26,8 @@ const Grid = () => {
                    <div className='select'>
                         <select name="Tous" >
                              <option>Tous</option>
-                             <option>1</option>
-                             <option>1</option>
+                             <option>Tous</option>
+                             <option>Tous</option>
                          </select>
                          <div className="select_arrow"></div>
                    </div>
@@ -36,14 +42,13 @@ const Grid = () => {
                
             </div>
             <div className='grid'>
-                {/* here put your cards */ }
-                <div className='placeholder'></div>
-                <div className='placeholder'></div>
-                <div className='placeholder'></div>
-                <div className='placeholder'></div>
-                <div className='placeholder'></div>
-                <div className='placeholder'></div>
-                <div className='placeholder'></div>
+                {
+                    props.content.map((item,key)=>
+                    {
+                        return <Card key={key} img={item.img} title={item.title} nb_competence={item.nb_competence}></Card>
+
+                    }) 
+                }
             </div>
         </div>
      );
