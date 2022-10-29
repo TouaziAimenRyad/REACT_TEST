@@ -20,9 +20,8 @@ function App() {
   return (
     <Router>
         <div className="App">
-          {/* <Card img={bg} name="Some name of grid goes here Some name of grid goes here" nb_competence="123"></Card>*/}
-          {/*<DetailSection img={bg} nb_competence="123" title="Some name of grid goes here Some name of grid goes here"  objectif="Some objectf goes here" category="some category goes here"></DetailSection>*/}
-          {/*navbar ans side br*/ }
+          
+          <Navbar></Navbar>
            <Switch>
              <Route exact path="/"> 
               
