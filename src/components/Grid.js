@@ -45,7 +45,7 @@ const Grid = (props) => {
                 {
                     props.content.map((item,key)=>
                     {
-                        return <Card key={key} img={item.img} title={item.title} nb_competence={item.nb_competence}></Card>
+                        return <Card delete={props.delete} key={key}  index={key} img={item.img} title={item.title} nb_competence={item.nb_competence}></Card>
 
                     }) 
                 }

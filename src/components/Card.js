@@ -7,17 +7,16 @@ import share from '../assets/icons/Path.svg'
 import { useState } from 'react'
 
 
-const Crad = (props) => {
+const Card = (props) => {
     const [isActive,setActive]=useState(false)
-    const toggle_display=(e)=> 
+    const toggle_display=()=> 
     {
-        e.preventDefault();
         setActive(!isActive)
     }
     return (
-        <a className="card-container" >
+        <div className="card-container" >
                 <div className={'detail '+ (isActive?'displayed':'hidden')}>
-                    <a className='delete action'>
+                    <a className='delete action' onClick={()=>{props.delete(props.index);toggle_display()}} >
                         <img src={bin} alt="bin"></img>
                         <p>Delete</p>
 
@@ -45,8 +44,8 @@ const Crad = (props) => {
                 </div>
 
             
-        </a>
+        </div>
     );
 }
  
-export default Crad;
+export default Card;
