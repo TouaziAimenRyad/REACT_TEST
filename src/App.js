@@ -37,7 +37,7 @@ function App() {
                 </a>
               <Switch>
                   <Route exact path="/"> 
-                
+                      <div className='empty'> <h1>EMPYY CHOOSE GRID FROM SIDE MENU</h1> </div>
                   </Route>
                   <Route exact path="/grid">
                     <Grid containerClass={(collapsed?"wide grid-container":"grid-container")} delete={(i)=>{handledelet(i)}} content={content}></Grid>

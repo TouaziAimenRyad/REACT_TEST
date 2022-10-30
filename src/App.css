@@ -101,6 +101,12 @@ a{
   transform: rotate(180deg);
 }
 
+.empty
+{
+  width: fit-content;
+  margin: auto;
+  height: 091vh;
+}
 
 @media screen and (max-width: 900px)
 {
