@@ -135,3 +135,14 @@ a
 { 
     width: 50%;
 }
+
+
+
+@media screen and (max-width: 860px)
+{
+  .detail-container
+  {
+    width: 100%;
+    
+  }
+}

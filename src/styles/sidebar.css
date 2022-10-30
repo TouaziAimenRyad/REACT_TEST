@@ -17,3 +17,26 @@
   margin: 0;
   height: 0;
 }
+
+
+@media screen and (max-width: 900px)
+{
+ 
+  
+  .sidenav
+  {
+    width: 80%;
+    height: 500px;
+    padding: 20px 10%;
+    transition: height 1s ease;
+    overflow-y: visible;
+
+  }
+  .collapsed {
+    width: 0;
+    padding: 0;
+    margin: 0;
+    height: 0;
+  }
+  
+}

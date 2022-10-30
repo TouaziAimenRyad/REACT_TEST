@@ -47,20 +47,19 @@ flex-grow: 1;
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: flex-start;
-width:fit-content;
-
+justify-content: flex-end;
+width: 10%;
 }
 
 .topnav .profile .profile-pic
 {
-width: fit-content;
+  width: 20%;
 }
 .topnav .profile .profile-pic img
 {
 vertical-align: middle;
-width: 45px;
-height: 45px;
+width: 40px;
+height: 40px;
 border-radius: 50%;
 
 }
@@ -104,8 +103,68 @@ text-decoration: none;
 padding: 10px;
 border-radius: 4px;
 border: solid 1px #bbbbbb;
-margin: 8px 16px;
+margin: 8px 1%;
 font-size: 17px;
 background-color: #fafafa;
 width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav input[type=text]  {
+    width: 40%;
+  }
+  .topnav .navigate{
+    flex-grow: 1;
+    width: 30%;
+    column-gap: 4%;
+  }
+  .topnav .navigate .nav-icons
+  {
+    width: 10%;
+  }
+  .topnav .company
+  {
+    width :15%
+  }
+  .topnav .profile .profile-name h2
+  {
+    width: 95%;
+    text-align: center;
+    margin-left:5% ;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .topnav .navigate{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .topnav .profile
+  {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .topnav .profile .profile-pic {
+    width: fit-content;
+    vertical-align:auto;
+  }
+  .topnav .company
+  {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+
+  }
+  .topnav .company .company-logo
+  {
+    padding: 0;
+  }
+  .topnav input[type=text] {
+    width: 80%;
+  }
+
 }

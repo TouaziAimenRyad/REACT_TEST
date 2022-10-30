@@ -30,7 +30,7 @@ function App() {
         <div className="App">
            <Navbar></Navbar>
            <div className='container'>
-              <SideBar containerClass={(collapsed?"collapsed sidenav":"sidenav")} ></SideBar>
+              <SideBar containerClass={(collapsed?"sidenav collapsed ":"sidenav")} ></SideBar>
               <a className={(collapsed?"show plus":"show moin")}  onClick={collapse}>
                     <img src={arrow_icon}></img>
                     <p>SHOW LESS</p>
