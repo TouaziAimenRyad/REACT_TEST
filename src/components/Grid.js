@@ -10,7 +10,7 @@ const Grid = (props) => {
     
 
     return ( 
-        <div className='grid-container'>
+        <div className={props.containerClass}>
             <p className='grid-title'>Grille</p>
             <div className='grid-control'>
 

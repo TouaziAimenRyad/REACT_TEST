@@ -4,7 +4,6 @@ import {IoIosNotifications } from 'react-icons/io'
 import {MdFeed } from 'react-icons/md'
 import {TiMessages} from 'react-icons/ti'
 import avatar from '../assets/img_avatar.png'
-import logo from "../assets/logo.png"
 
 
 const Navbar = () => {

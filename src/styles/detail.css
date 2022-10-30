@@ -2,13 +2,18 @@ a
 {
     cursor: pointer;
 }
+
 .detail-container{
     width: 85%;
     position: relative;
     height: 92vh;
+    transition: width 0.15s ease;
+
     
 }
-
+.wide {
+    width: 100%;
+}
 .image-section
 {
     height: 300px;

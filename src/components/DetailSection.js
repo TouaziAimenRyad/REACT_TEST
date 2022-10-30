@@ -14,7 +14,7 @@ const DetailSection = (props) => {
     const item=props.getItem(index)
 
     return ( 
-        <div className="detail-container">
+        <div className={props.containerClass}>
             
             <div className="image-section" style={{backgroundImage:`url(${item.img})`, backgroundSize: 'cover' ,backgroundPosition: 'center' }}>
                 

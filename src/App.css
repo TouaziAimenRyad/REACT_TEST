@@ -49,6 +49,58 @@ a{
   align-items: stretch;
 }
 
+
+.show
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  width: fit-content;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px rgb(255, 255, 255);
+  z-index: 3;
+}
+
+.show:hover
+{
+  background-color: #dadada;
+}
+.moin p 
+{
+  font-family: Rubik;
+  font-weight: 0500;
+  font-size: 18px;
+  color: gray;
+  width: 200px;
+  content: "SHOW LESS";
+}
+.moin img
+{
+  width: 20%;
+  transition: transform 0.15s ease;
+
+} 
+
+.plus
+{
+  left: 5px;
+}
+.plus p
+{
+  display: none;
+}
+.plus img
+{
+  transition: transform 0.15s ease;
+  width: 100%;
+  padding: 10px;
+  transform: rotate(180deg);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

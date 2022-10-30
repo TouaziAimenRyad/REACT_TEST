@@ -17,8 +17,8 @@ const Accordion = ({title,options}) => {
                 <img src={arrow_icon}></img>
             </a>
             <ul className={"accordion-options "+(active?'opened':'closed')}>
-                {options.map((opt) => (
-                    <li><Link to={opt}>{opt}</Link></li>
+                {options.map((opt,key) => (
+                    <li key={key}><Link to={"/"+opt.link}>{opt.display}</Link></li>
                 ))}
             </ul>
         </div> 
