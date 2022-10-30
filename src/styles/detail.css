@@ -3,9 +3,10 @@ a
     cursor: pointer;
 }
 .detail-container{
-    width: 70%;
-    margin: 0px auto;
+    width: 85%;
     position: relative;
+    height: 92vh;
+    
 }
 
 .image-section
@@ -92,9 +93,10 @@ a
 .content 
 {
     text-align: left;
-    position: absolute;
+    position: relative;
     left: 25%;
-    width: 100%;
+    width: 60%;
+    margin: 0;
 }
 
 .content h2 
@@ -118,4 +120,13 @@ a
     padding: 24px 2%;
     width: 40%;
 
+}
+.objectif p
+{
+    width: 90%;
+
+}
+.category p
+{ 
+    width: 50%;
 }

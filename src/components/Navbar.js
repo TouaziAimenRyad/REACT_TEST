@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
                 <div className='company-name'>
                     <p>Company name</p>
-                    <p style={{color:'red'}}>Bootcamp name</p>
+                    <p style={{color:'red' ,fontWeight:'300'}}>Bootcamp name</p>
                 </div>
             </div>
             <div  className='profile' > <div className='profile-pic'><img src={avatar} alt='avatar'></img></div><div className='profile-name'> <h2>TOUAZI AIMEN RYAD</h2></div> </div>

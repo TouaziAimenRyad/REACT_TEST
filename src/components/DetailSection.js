@@ -1,3 +1,5 @@
+import React from 'react';
+
 import return_arrow from "../assets/icons/ic_back.svg"
 import more from "../assets/icons/Icon_24x24.svg"
 import icon_16x16 from '../assets/icons/Icon_16x16.svg'

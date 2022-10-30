@@ -1,98 +1,99 @@
 .topnav {
-    overflow: hidden;
-    padding: 10px 1%;
-    background-color: #f5f5f5;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: fit-content;
+  overflow: hidden;
+  padding: 10px 1%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
 }
 
 .topnav .company {
-  order: 1;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+order: 1;
+flex-grow: 1;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
 }
 
 .topnav .company .company-name p
 {
-  text-align: left;
-  margin: 0;
-  font-family: Rubik;
-  font-weight: 400;
-  font-size: 14px;
+text-align: left;
+margin: 0;
+font-family: Rubik;
+font-weight: 400;
+font-size: 14px;
 
 }
 
 .topnav .company .company-logo
 {
-  width:fit-content;
-  padding: 5px;
-  
+width:fit-content;
+padding: 5px;
+
 }
 .topnav .company .company-logo div
 {
-  background-color: gray;
-  width :40px;
-  height: 40px;
+background-color: rgb(206, 206, 206);
+width :40px;
+height: 40px;
+border-radius: 5px;
 }
 
 .topnav .profile {
-  order: 3;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  width:fit-content;
+order: 3;
+flex-grow: 1;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+width:fit-content;
 
 }
 
 .topnav .profile .profile-pic
 {
-  width: fit-content;
+width: fit-content;
 }
 .topnav .profile .profile-pic img
 {
-  vertical-align: middle;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
- 
+vertical-align: middle;
+width: 45px;
+height: 45px;
+border-radius: 50%;
+
 }
 .topnav .profile .profile-name 
 {
-  margin-left: 5%;
-  font-size: small;
-  color: black;
-  
+margin-left: 5%;
+font-size: small;
+color: black;
+
 }
 .topnav .profile .profile-name h2
 {
-  font-family: Rubik;
-  font-weight: 500;
-  font-size: 14px;
-  font-style: normal;
-  color: black;
+font-family: Rubik;
+font-weight: 500;
+font-size: 14px;
+font-style: normal;
+color: black;
 }
 .topnav .navigate{
-  order: 2;
-  flex-grow: 8;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+order: 2;
+flex-grow: 8;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
 }
 .topnav .navigate .nav-icons {
-  
-  display: block;
-  color: black;
-  text-align: center;
-  width: 5%;
-  text-decoration: none;
+
+display: block;
+color: black;
+text-align: center;
+width: 5%;
+text-decoration: none;
 
 }
 
@@ -100,10 +101,11 @@
 
 .topnav input[type=text] {
 
-  padding: 6px;
-  border-radius: 4px;
-  border: solid 1px #bbbbbb;
-  margin: 8px 16px;
-  font-size: 17px;
-  width: 70%;
+padding: 10px;
+border-radius: 4px;
+border: solid 1px #bbbbbb;
+margin: 8px 16px;
+font-size: 17px;
+background-color: #fafafa;
+width: 70%;
 }

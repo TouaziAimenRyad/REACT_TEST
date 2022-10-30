@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../styles/grid.css'
 import more_icon from '../assets/icons/Moreo.svg'
 import Card from './Card';

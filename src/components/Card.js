@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../styles/card.css'
 import union_icon from '../assets/icons/Union.svg'
 import icon_24x24 from '../assets/icons/Icon_24x24.svg'

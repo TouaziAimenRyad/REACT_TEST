@@ -41,6 +41,14 @@ a{
   text-decoration: none;
 }
 
+.container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
